@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GARANTIA PATEO</title>
+ 
+</head>
+<body>
+   <nav class="navbar navbar-light bg-light">
+      <button onclick="recife(this);">RECIFE</button>
+      <button onclick="olinda(this);">OLINDA</button>
+      <button onclick="piedade(this);">PIEDADE</button>
+      <button onclick="holandeses(this);">HOLANDESES</button>
+      <button onclick="feira(this);">FEIRA</button>
+      <button onclick="bequimao(this);">BEQUIMÃO</button>
+      <button onclick="jp(this);">JOÃO PESSOA</button>
+      <button onclick="manaus(this);">MANAUS</button>
+      <button onclick="retiro(this);">RETIRO</button>
+      
+    </nav>
+
+    <iframe id="olinda" class="airtable-embed" src="https://airtable.com/embed/shrLb4dp4CDSaCXti?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"hidden></iframe>
+    <iframe id="recife" class="airtable-embed" src="https://airtable.com/embed/shrI0f4HSRlYzfgrN?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;" hidden></iframe>
+    <iframe id="piedade" class="airtable-embed" src="https://airtable.com/embed/shr60PZ442cppMo04?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"hidden></iframe>
+    <iframe id="holandeses" class="airtable-embed" src="https://airtable.com/embed/shrwDHl31pGbwHmTI?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"hidden></iframe>
+    <iframe id="feira" class="airtable-embed" src="https://airtable.com/embed/shrFZcVNypqtGf4SM?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"hidden></iframe>
+    <iframe id="bequimao" class="airtable-embed" src="https://airtable.com/embed/shrhBDI8LuybrWuXM?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"hidden></iframe>
+    <iframe id="jp" class="airtable-embed" src="https://airtable.com/embed/shrfCcP5k5LNiusea?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"hidden></iframe>
+    <iframe id="manaus" class="airtable-embed" src="https://airtable.com/embed/shrzG7a9rUidtifWa?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"hidden></iframe>
+    <iframe id="retiro" class="airtable-embed" src="https://airtable.com/embed/shrCVlut6K07JXeHT?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"hidden></iframe>
+    <br /><br />
+
+  
+
+    <script>
+      let recife = button => {
+        let element = document.getElementById("recife");
+        let hidden = element.getAttribute("hidden");
+        
+        if (hidden) {
+           element.removeAttribute("hidden");
+        } else {
+           element.setAttribute("hidden", "hidden");
+        }
+      }
+
+      let olinda = button => {
+        let element = document.getElementById("olinda");
+        let hidden = element.getAttribute("hidden");
+        
+        if (hidden) {
+           element.removeAttribute("hidden");
+        } else {
+           element.setAttribute("hidden", "hidden");
+        }
+      }
+
+      let piedade = button => {
+        let element = document.getElementById("piedade");
+        let hidden = element.getAttribute("hidden");
+        
+        if (hidden) {
+           element.removeAttribute("hidden");
+        } else {
+           element.setAttribute("hidden", "hidden");
+        }
+      }
+
+      let holandeses = button => {
+        let element = document.getElementById("holandeses");
+        let hidden = element.getAttribute("hidden");
+        
+        if (hidden) {
+           element.removeAttribute("hidden");
+        } else {
+           element.setAttribute("hidden", "hidden");
+        }
+      }
+
+      let feira = button => {
+        let element = document.getElementById("feira");
+        let hidden = element.getAttribute("hidden");
+        
+        if (hidden) {
+           element.removeAttribute("hidden");
+        } else {
+           element.setAttribute("hidden", "hidden");
+        }
+      }
+
+      let bequimao = button => {
+        let element = document.getElementById("bequimao");
+        let hidden = element.getAttribute("hidden");
+        
+        if (hidden) {
+           element.removeAttribute("hidden");
+        } else {
+           element.setAttribute("hidden", "hidden");
+        }
+      }
+
+      let jp = button => {
+        let element = document.getElementById("jp");
+        let hidden = element.getAttribute("hidden");
+        
+        if (hidden) {
+           element.removeAttribute("hidden");
+        } else {
+           element.setAttribute("hidden", "hidden");
+        }
+      }
+
+      let manaus = button => {
+        let element = document.getElementById("manaus");
+        let hidden = element.getAttribute("hidden");
+        
+        if (hidden) {
+           element.removeAttribute("hidden");
+        } else {
+           element.setAttribute("hidden", "hidden");
+        }
+      }
+
+      let retiro = button => {
+        let element = document.getElementById("retiro");
+        let hidden = element.getAttribute("hidden");
+        
+        if (hidden) {
+           element.removeAttribute("hidden");
+        } else {
+           element.setAttribute("hidden", "hidden");
+        }
+      }
+    </script>
+</body>
+</html>
